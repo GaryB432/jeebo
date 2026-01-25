@@ -1,30 +1,44 @@
-[![Chat](https://img.shields.io/discord/457912077277855764?label=chat&logo=discord)](https://svelte.dev/chat)
+# Jeebo
 
-# sv - the Svelte CLI
+<p align="center">
+  Some web app tooling
+</p>
 
-Read the [SvelteKit documentation](https://svelte.dev/docs/kit) for more details about getting started with a newly created app.
+<p align="center">
+  <img src="./assets/logo.svg" width="100" />
+</p>
 
-### Packages
+## 🌐 Infos
 
-| Package                            | Changelog                                  | Documentation                                           |
-| ---------------------------------- | ------------------------------------------ | ------------------------------------------------------- |
-| [sv](packages/sv)                  | [Changelog](packages/sv/CHANGELOG.md)      | [Documentation](https://svelte.dev/docs/cli/overview)   |
-| [svelte-migrate](packages/migrate) | [Changelog](packages/migrate/CHANGELOG.md) | [Documentation](https://svelte.dev/docs/cli/sv-migrate) |
+[![](https://img.shields.io/badge/Documentation%20of-kitql-FF3E00.svg?style=flat&logo=stackblitz&logoColor=FF3E00)](https://kitql.dev/docs)
+[![GitHub license](https://img.shields.io/badge/license-MIT-gree.svg)](./LICENSE)
 
-## Contributing
+💡 _[Jeebo](https://www.kitql.dev/docs) itself is not a library, it's "nothing" but a collection of
+standalone libraries._
 
-Please file an issue for discussion before sending a PR for a new add-on. Most new add-ons will likely be recommended to be implemented as community add-ons. This repository will only hold a very limited number of add-ons at the maintainers discretion that address widely held needs, are considered best-in-class, and are widely used in the Svelte community.
+---
 
-## Supporting Svelte
+| Package\*                                          |                                                       Version                                                        |                                                    Downloads                                                    |
+| :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
+| [@jeebo/helpers](./packages/helpers/README.md)     |   [![](https://img.shields.io/npm/v/@jeebo/helpers?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/helpers)   |   [![](https://img.shields.io/npm/dm/@jeebo/helpers?&logo=npm)](https://www.npmjs.com/package/@jeebo/helpers)   |
+| [@jeebo/cli](./packages/cli/README.md)             |       [![](https://img.shields.io/npm/v/@jeebo/cli?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/cli)       |       [![](https://img.shields.io/npm/dm/@jeebo/cli?&logo=npm)](https://www.npmjs.com/package/@jeebo/cli)       |
+| [@jeebo/templates](./packages/templates/README.md) | [![](https://img.shields.io/npm/v/@jeebo/templates?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) | [![](https://img.shields.io/npm/dm/@jeebo/templates?&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) |
+| [@jeebo/internals](./packages/internals/README.md) | [![](https://img.shields.io/npm/v/@jeebo/internals?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/internals) | [![](https://img.shields.io/npm/dm/@jeebo/internals?&logo=npm)](https://www.npmjs.com/package/@jeebo/internals) |
 
-Svelte is an MIT-licensed open source project with its ongoing development made possible entirely by fantastic volunteers. If you'd like to support their efforts, please consider:
+_\*Order by subjective usefulness_ 😉
 
-- [Becoming a backer on Open Collective](https://opencollective.com/svelte).
+## ⭐️ Join us
 
-## License
+[![GitHub Repo stars](https://img.shields.io/github/stars/GaryB432/jeebo?logo=github&label=Jeebo&color=#4ACC31)](https://github.com/GaryB432/jeebo)
 
-[MIT](https://github.com/sveltejs/kit/blob/main/LICENSE)
+## ✨ Contributors
 
-## Acknowledgements
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-Thank you to [Christopher Brown](https://github.com/chbrown) who originally owned the `sv` name on npm for graciously allowing it to be used for the Svelte CLI. You can find the original `sv` package at [`@chbrown/sv`](https://www.npmjs.com/package/@chbrown/sv).
+Thanks goes to these wonderful people ([emoji key](https://allcontributors.org/docs/en/emoji-key)):
+
+<!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
+<!-- ALL-CONTRIBUTORS-LIST:END -->
+
+Wanna contribute? More info on [this page](./CONTRIBUTING.md)
