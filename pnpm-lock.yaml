@@ -113,6 +113,10 @@ importers:
         version: 5.48.2
 
   packages/sv:
+    dependencies:
+      sv:
+        specifier: ^0.11.3
+        version: 0.11.3
     devDependencies:
       '@clack/prompts':
         specifier: 1.0.0-alpha.9
@@ -2081,6 +2085,10 @@ packages:
   supports-color@7.2.0:
     resolution: {integrity: sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw==}
     engines: {node: '>=8'}
+
+  sv@0.11.3:
+    resolution: {integrity: sha512-q6/BB3v1A5dN/ZzeKzjQW6g/fRv+XIWihWnzrCi0c8riOTJbY2iQRXmg7KWSc+Jqoxorw+7+RtUlaBFijf/stg==}
+    hasBin: true
 
   svelte-eslint-parser@1.4.1:
     resolution: {integrity: sha512-1eqkfQ93goAhjAXxZiu1SaKI9+0/sxp4JIWQwUpsz7ybehRE5L8dNuz7Iry7K22R47p5/+s9EM+38nHV2OlgXA==}
@@ -4162,6 +4170,8 @@ snapshots:
   supports-color@7.2.0:
     dependencies:
       has-flag: 4.0.0
+
+  sv@0.11.3: {}
 
   svelte-eslint-parser@1.4.1(svelte@5.48.2):
     dependencies:
