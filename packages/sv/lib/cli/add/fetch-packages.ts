@@ -183,11 +183,11 @@ export async function getPackageJSON(ref: AddonReference): Promise<{
 
 	// Check blocklist
 	const blocklist = await downloadJson(
-		'https://raw.githubusercontent.com/sveltejs/cli/refs/heads/main/packages/sv/blocklist.json'
+		'https://raw.githubusercontent.com/GaryB432/jeebo/refs/heads/master/packages/sv/blocklist.json'
 	);
 	if (blocklist.npm_names.includes(source.packageName)) {
 		common.errorAndExit(
-			`${color.warning(source.packageName)} blocked from being installed. If this is not the intended behavior please open an issue here: https://github.com/sveltejs/cli/issues.`
+			`${color.warning(source.packageName)} blocked from being installed. If this is not the intended behavior please open an issue here: https://github.com/GaryB432/jeebo/issues.`
 		);
 	}
 

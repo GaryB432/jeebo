@@ -3,13 +3,13 @@ name: Release
 on:
   push:
     branches:
-      - main
+      - master
 
 permissions: {}
 jobs:
   release:
     # prevents this action from running on forks
-    if: github.repository == 'sveltejs/cli'
+    if: github.repository == 'GaryB432/jeebo'
     permissions:
       contents: write # to create release (changesets/action)
       id-token: write # OpenID Connect token needed for provenance

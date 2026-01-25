@@ -1,12 +1,12 @@
 {
-	"name": "sv",
-	"version": "0.11.3",
+	"name": "@jeebo/sv",
+	"version": "0.0.1",
 	"type": "module",
-	"description": "A command line interface (CLI) for creating and maintaining Svelte applications",
+	"description": "Another command line interface (CLI) for creating and maintaining Svelte applications",
 	"license": "MIT",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/sveltejs/cli.git",
+		"url": "git+https://github.com/GaryB432/jeebo.git",
 		"directory": "packages/cli"
 	},
 	"homepage": "https://svelte.dev",
