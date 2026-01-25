@@ -20,10 +20,10 @@ standalone libraries._
 
 | Package\*                                          |                                                       Version                                                        |                                                    Downloads                                                    |
 | :------------------------------------------------- | :------------------------------------------------------------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------: |
-| [@jeebo/helpers](./packages/helpers/README.md)     |   [![](https://img.shields.io/npm/v/@jeebo/helpers?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/helpers)   |   [![](https://img.shields.io/npm/dm/@jeebo/helpers?&logo=npm)](https://www.npmjs.com/package/@jeebo/helpers)   |
 | [@jeebo/cli](./packages/cli/README.md)             |       [![](https://img.shields.io/npm/v/@jeebo/cli?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/cli)       |       [![](https://img.shields.io/npm/dm/@jeebo/cli?&logo=npm)](https://www.npmjs.com/package/@jeebo/cli)       |
-| [@jeebo/templates](./packages/templates/README.md) | [![](https://img.shields.io/npm/v/@jeebo/templates?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) | [![](https://img.shields.io/npm/dm/@jeebo/templates?&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) |
 | [@jeebo/internals](./packages/internals/README.md) | [![](https://img.shields.io/npm/v/@jeebo/internals?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/internals) | [![](https://img.shields.io/npm/dm/@jeebo/internals?&logo=npm)](https://www.npmjs.com/package/@jeebo/internals) |
+| [@jeebo/internals](./packages/sv/README.md)        |        [![](https://img.shields.io/npm/v/@jeebo/sv?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/sv)        |        [![](https://img.shields.io/npm/dm/@jeebo/sv?&logo=npm)](https://www.npmjs.com/package/@jeebo/sv)        |
+| [@jeebo/templates](./packages/templates/README.md) | [![](https://img.shields.io/npm/v/@jeebo/templates?color=&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) | [![](https://img.shields.io/npm/dm/@jeebo/templates?&logo=npm)](https://www.npmjs.com/package/@jeebo/templates) |
 
 _\*Order by subjective usefulness_ 😉
 

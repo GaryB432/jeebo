@@ -66,6 +66,10 @@ importers:
         specifier: 4.0.15
         version: 4.0.15(@types/node@20.19.30)(@vitest/ui@4.0.15)(yaml@2.8.2)
 
+  packages/cli: {}
+
+  packages/internals: {}
+
   packages/migrate:
     dependencies:
       '@clack/prompts':
@@ -196,6 +200,8 @@ importers:
       zimmerframe:
         specifier: ^1.1.4
         version: 1.1.4
+
+  packages/templates: {}
 
 packages:
 
