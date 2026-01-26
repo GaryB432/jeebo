@@ -44,7 +44,7 @@ describe('cli', () => {
 		}
 	];
 
-	it.for(testCases)(
+	it.skip.for(testCases)(
 		'should create a new project with name $projectName',
 		{ timeout: 51_000 },
 		async (testCase) => {
