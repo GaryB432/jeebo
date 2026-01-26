@@ -1,11 +1,12 @@
 import path from 'node:path';
+import { env } from 'node:process';
 import { setTimeout } from 'node:timers/promises';
 import { defineConfig } from 'tsdown';
 
 export default defineConfig([
 	{
 		entry: ['./lib/index.ts', './lib/testing.ts', './bin.ts'],
-		sourcemap: !process.env.CI,
+		sourcemap: !env.CI,
 		dts: {
 			oxc: true
 		},
@@ -25,7 +26,7 @@ export default defineConfig([
 
 async function buildTemplates(p: string) {
 	console.log('taking forever to build', p);
-	await setTimeout(1000);
+	await setTimeout(5000);
 }
 
 export async function buildCliTemplates() {

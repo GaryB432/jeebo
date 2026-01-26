@@ -1,11 +1,12 @@
 import path from 'node:path';
+import { env } from 'node:process';
 import { setTimeout } from 'node:timers/promises';
 import { defineConfig } from 'tsdown';
 
 export default defineConfig([
 	{
 		entry: ['./lib/index.ts', './lib/testing.ts', './bin.ts'],
-		sourcemap: !process.env.CI,
+		sourcemap: !env.CI,
 		dts: {
 			oxc: true
 		},
